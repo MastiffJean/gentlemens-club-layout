@@ -1,0 +1,161 @@
+.product {
+    text-align: center;
+    margin: 0 0 1.992em 0;
+}
+
+#product-26.product {
+    text-align: left;
+}
+
+hr:not([size]) {
+    opacity: 1;
+}
+
+.product img {
+    width: 30vw;
+    height: auto;
+    margin: 0 0 .5em;
+    -webkit-transition: -webkit-filter 0.3s linear;
+    transition: filter 0.3s linear;
+}
+
+#product-26.product img.attachment-woocommerce_thumbnail {
+    width: 96%;
+}
+
+.product_title {
+    display: none;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+
+    #product-26.product img.attachment-woocommerce_thumbnail {
+        width: 100%;
+    }
+
+    .product_title {
+        margin: 1em 0;
+        display: block;
+        text-align: center;
+        line-height: 1.68;
+    }
+
+    .product img {
+        width: 39vw;
+    }
+    
+}
+
+.product img:hover {
+    filter:brightness(120%);
+}
+
+button[type=submit].single_add_to_cart_button {
+    padding: .400em 1em;
+}
+
+div.product p.price {
+    font-size: 28px;
+    padding: 0;
+    margin-right: 2em;
+    margin-bottom: 0;
+}
+
+.woocommerce-product-details__short-description {
+    margin-top: 1em;
+}
+
+.woocommerce-breadcrumb {
+    margin: 0 0 1em;
+    padding: 0;
+    font-size: .92em;
+    color: #767676;
+}
+
+.woocommerce-breadcrumb a {
+    color: #767676;
+}
+
+.product_title {
+    font-weight: bold;
+}
+
+.woocommerce-loop-product__title {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 0 0 .5em;
+    line-height: 1.68;
+}
+
+.woocommerce-loop-product__title:hover {
+    color: #5499C7;
+}
+
+.price {
+    font-size: 22px;
+    color: #27AE60;
+    font-family: 'Roboto Slab', sans-serif;
+    padding: 0 0 .5em;
+    margin-bottom: .5em;
+}
+
+a.button {
+    color: white;
+    background-color: #212121;
+    border: 2px solid white;
+    border-radius: 0;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    margin: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 50%;
+    font-weight: 700;
+    cursor: pointer;
+    padding: .600em 3.5em;
+    /* word-wrap: break-word; */
+}
+
+@media screen and (max-width: 768px) {
+
+    a.button {
+        width: auto;
+        padding: .300em;
+    }
+    
+}
+
+a.button:hover {
+    color: white;
+    background-color: #414141;
+}
+
+.add_to_cart_button {
+    padding: .060em;
+}
+
+.row>* {
+    padding: 0;
+}
+
+.entry-summary {
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .entry-summary {
+        padding-left: 0;
+    }
+    
+}
